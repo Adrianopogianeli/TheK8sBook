@@ -25,6 +25,10 @@ nodes:
     hostPort: 443
   - containerPort: 2222
     hostPort: 2222
+  - containerPort: 32555
+    hostPort: 32555
+  - containerPort: 9000
+    hostPort: 9000
     # optional: set the bind address on the host
     # 0.0.0.0 is the current default
     listenAddress: "127.0.0.1"
