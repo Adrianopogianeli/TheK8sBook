@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #sample usage:
-#./max-pods-calculator.sh --instance-type t3.small --cni-version 1.12.5-eksbuild.2 --profile aws-mytsre-sandbox
+#./max-pods-calculator.sh --instance-type t3.small --cni-version 1.12.5-eksbuild.2 --profile aws-sandbox
 set -o pipefail
 set -o nounset
 set -o errexit
